@@ -1,3 +1,108 @@
-body{
-    height: 100%;
+html, body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 125px;
+    padding-left: 125px;
+    background-color: #1F2937;
+    color: white;
+    /* border: 3px solid red; */
+}
+.headerLinks{
+    display: flex;
+    gap: 10px;
+}
+.headerContent{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-right: 125px;
+    padding-left: 125px;
+    color: #F9FAF8;
+    padding-bottom: 15px;
+    /* border: 3px solid red; */
+}
+.textInfo{
+    font-family: Hero, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.headerText{
+    font-family: Hero, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    /* border: 3px solid red; */
+}
+.bodyContent{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-right: 125px;
+    padding-left: 125px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 125px;
+    padding-left: 125px;
+    gap: 20px;
+}
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 125px;
+    padding-left: 125px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 125px;
+    padding-left: 125px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(59, 117, 192);
+    color: white;
+    margin: 50px;
+}
+button {
+    color: white;
+    background-color: rgb(59, 117, 192);
+    border: transparent;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.whiteSpace{
+    margin: 25px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+/* img{
+    border: 3px solid red;
+} */
+
